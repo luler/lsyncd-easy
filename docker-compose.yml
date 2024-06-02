@@ -1,0 +1,8 @@
+version: '3'
+services:
+  lsyncd:
+    build: .
+    volumes:
+      # 把主机的./source目录换成需要的同步的目录即可
+      - ./source:/home/source
+    restart: always

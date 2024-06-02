@@ -1,0 +1,4 @@
+config/.ssh
+source
+!.gitignore
+.idea
